@@ -52,7 +52,7 @@ brian d foy, C<< <brian.d.foy@gmail.com> >>
 =head1 COPYRIGHT AND LICENSE
 
 
-Copyright (c) 2013, brian d foy, All Rights Reserved.
+Copyright (c) 2005-2013, brian d foy, All Rights Reserved.
 
 You may redistribute this under the same terms as Perl itself.
 

@@ -1,13 +1,13 @@
 use ExtUtils::MakeMaker;
 
-require 5.008;
+require 5.012;
 
 eval "use Test::Manifest 1.14";
 
 WriteMakefile(
-	'NAME'	       => '[% module %]',
-	'ABSTRACT'     => 'This is what the module does',
-	'VERSION_FROM' => 'lib/[% module_file %]',
+	'NAME'	       => 'Tie::Timely',
+	'ABSTRACT'     => '',
+	'VERSION_FROM' => 'lib/',
 	'LICENSE'      => 'perl',
 	'AUTHOR'       => 'brian d foy <bdfoy@cpan.org>',
 	
@@ -15,14 +15,6 @@ WriteMakefile(
 		'Test::More' => '0',
 		},
 
-	'PM'           => {
-		'lib/[% module_file %]'         => '$(INST_LIBDIR)/[% module_file %]',
-		},
-
-	'MAN3PODS'     => {
-		'lib/[% module_file %]' => '$(INST_MAN3DIR)/[% module %].3',
-		},
-
-	clean  => { FILES    => q|[% module_dist %]-*| },
+	clean  => { FILES    => q|Tie-Timely-*| },
 
 	);

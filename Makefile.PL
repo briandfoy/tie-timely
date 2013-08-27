@@ -1,21 +1,22 @@
-use ExtUtils::MakeMaker;
+use ExtUtils::MakeMaker 6.46;
 
-require 5.012;
+require 5.008;
 
-eval "use Test::Manifest 1.14";
+eval "use Test::Manifest 1.21";
 
 WriteMakefile(
-	'NAME'	       => 'Tie::Timely',
-	'ABSTRACT'     => 'Time out scalar values',
-	'VERSION_FROM' => 'lib/Tie/Timely.pm',
-	'LICENSE'      => 'perl',
-	'AUTHOR'       => 'brian d foy <bdfoy@cpan.org>',
-	
-	'PREREQ_PM'    => { 
-		'Test::More' => '0',
+	'NAME'          => 'Tie::Timely',
+	'ABSTRACT'      => 'Expiring scalar values',
+	'VERSION_FROM'  => 'lib/Tie/Timely.pm',
+	'LICENSE'       => 'perl',
+	'AUTHOR'        => 'brian d foy <bdfoy@cpan.org>',
+
+	'PREREQ_PM'		=> {
+		'Test::More'       => '0.95',
+		'Carp'             => '0',
 		},
 
-	clean  => { FILES    => q|Tie-Timely-*| },
+	'clean' => { FILES => 'Tie-*' },
 
 	'META_MERGE' => {
         'meta-spec' => { version => 2 },

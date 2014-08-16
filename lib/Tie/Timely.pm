@@ -3,7 +3,7 @@ use strict;
 
 use Carp qw(croak);
 
-our $VERSION = '1.001';
+our $VERSION = '1.002';
 
 sub TIESCALAR {
 	my $class      = shift;
@@ -29,7 +29,7 @@ __END__
 
 =head1 NAME
 
-Tie::Timely - Time out scalar values
+Tie::Timely - scalar values with time-limited values
 
 =head1 SYNOPSIS
 
@@ -37,7 +37,8 @@ Tie::Timely - Time out scalar values
 
 =head1 DESCRIPTION
 
-Self-destructing values
+Self-destructing values go away after a time that you specify.
+
 
 =head1 SOURCE AVAILABILITY
 
@@ -51,7 +52,7 @@ brian d foy, C<< <brian.d.foy@gmail.com> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2005-2013, brian d foy, All Rights Reserved.
+Copyright (c) 2005-2014, brian d foy, All Rights Reserved.
 
 You may redistribute this under the same terms as Perl itself.
 

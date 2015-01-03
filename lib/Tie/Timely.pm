@@ -51,7 +51,7 @@ brian d foy, C<< <brian.d.foy@gmail.com> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2005-2013, brian d foy, All Rights Reserved.
+Copyright © 2005-2015, brian d foy <bdfoy@cpan.org>. All rights reserved.
 
 You may redistribute this under the same terms as Perl itself.
 

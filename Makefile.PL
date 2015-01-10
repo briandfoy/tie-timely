@@ -48,7 +48,7 @@ my %WriteMakefile = (
 			},
 		},
 
-	'clean' => { FILES => 'Tie-*' },
+	'clean' => { FILES => "$dist-*" },
 	);
 
 sub arguments { \%WriteMakefile }

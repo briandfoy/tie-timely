@@ -1,6 +1,7 @@
 .travis.yml
 Changes
 examples/placeholder.pl
+INSTALL.SKIP
 lib/Tie/Timely.pm
 LICENSE
 Makefile.PL

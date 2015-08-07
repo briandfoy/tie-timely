@@ -60,4 +60,4 @@
 
 \.releaserc
 \.lwpcookies
-
+\.travis\.yml

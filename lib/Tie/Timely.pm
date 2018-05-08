@@ -35,9 +35,21 @@ Tie::Timely - Time out scalar values
 
 	use Tie::Timely;
 
+	my $interval = 5;
+	tie my $scalar, 'Amelia', $interval;
+	# now $scalar is 'Amelia'
+
+	sleep 6;
+	# now the interval has elapsed and the value is forgotten
+
+	# set the value again and it starts a new interval
+	$scalar = 'Llama';
+
 =head1 DESCRIPTION
 
-Self-destructing values
+This module creates a tied scalar that forgets its value after the
+interval that you specify. The next time you set the value it resets
+the interval;
 
 =head1 SOURCE AVAILABILITY
 

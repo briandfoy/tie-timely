@@ -1,5 +1,8 @@
 Revision history for Perl module Time::Timely
 
+1.002 2018-05-08T02:29:40Z
+	* Clarify that it's the Artistic License 2.0
+
 1.01 - 2013-08-27
 	* Initial release of an example module I created for
 	Mastering Perl

@@ -10,6 +10,7 @@ META.json
 META.yml
 README.md
 README.pod
+t/expire.t
 t/load.t
 t/pod.t
 t/pod_coverage.t

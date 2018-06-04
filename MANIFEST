@@ -8,7 +8,6 @@ MANIFEST			This list of files
 MANIFEST.SKIP
 META.json
 META.yml
-README.md
 README.pod
 t/expire.t
 t/load.t

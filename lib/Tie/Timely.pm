@@ -3,7 +3,7 @@ use strict;
 
 use Carp qw(croak);
 
-our $VERSION = '1.021';
+our $VERSION = '1.022';
 
 sub TIESCALAR {
 	my $class      = shift;

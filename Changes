@@ -1,9 +1,5 @@
 Revision history for Perl module Time::Timely
 
-1.021 2018-06-03T13:50:01Z
-	* Give this release a version greater than the first release. It's
-	that three digit thing.
-
 1.002 2018-05-08T02:29:40Z
 	* Clarify that it's the Artistic License 2.0
 

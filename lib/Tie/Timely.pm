@@ -55,7 +55,7 @@ the interval;
 
 This source is in Github:
 
-	http://github.com/briandfoy/tie-timely/
+	https://github.com/briandfoy/tie-timely/
 
 =head1 AUTHOR
 

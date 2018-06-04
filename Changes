@@ -1,5 +1,8 @@
 Revision history for Perl module Time::Timely
 
+1.022 2018-06-04T00:25:16Z
+	* A small fix to the MANIFEST file
+
 1.002 2018-05-08T02:29:40Z
 	* Clarify that it's the Artistic License 2.0
 

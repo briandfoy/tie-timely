@@ -10,7 +10,7 @@
 
 =for HTML <a href="https://github.com/briandfoy/tie-timely/blob/master/LICENSE"><img src="https://img.shields.io/cpan/l/Tie-Timely.svg" /></a>
 
-=for HTML <a href="http://www.metacpan.org/module/Tie::Timely"><img src="https://img.shields.io/cpan/v/Tie-Timely.svg" /></A>
+=for HTML <a href="https://metacpan.org/pod/Tie::Timely"><img src="https://img.shields.io/cpan/v/Tie-Timely.svg" /></A>
 
 =head1 The Tie::Timely module
 
@@ -33,7 +33,7 @@ name instead of the file location:
 	% perldoc Tie::Timely
 
 You can read the documentation and inspect the meta data at
-L<MetaCPAN|https://www.metacpan.org/module/Tie::Timely>.
+L<MetaCPAN|https://metacpan.org/pod/Tie::Timely>.
 
 The standard module documentation has example uses in the SYNOPSIS
 section, but you can also look in the I<examples/> directory (if it's

@@ -2,8 +2,6 @@
 
 =encoding utf8
 
-=for HTML <a href="https://travis-ci.org/briandfoy/tie-timely"><img src="https://travis-ci.org/briandfoy/tie-timely.svg?branch=master" /></a>
-
 =for HTML <a href='https://ci.appveyor.com/project/briandfoy/tie-timely'><img src='https://ci.appveyor.com/api/projects/status/l3vut7yd738o90gj' /></a>
 
 =for HTML <a href='https://coveralls.io/github/briandfoy/tie-timely?branch=master'><img src='https://coveralls.io/repos/github/briandfoy/tie-timely/badge.svg?branch=master' alt='Coverage Status' /></a>

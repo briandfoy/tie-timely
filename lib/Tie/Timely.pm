@@ -1,7 +1,7 @@
 package Tie::Timely;
 use strict;
 
-our $VERSION = '1.025';
+our $VERSION = '1.026';
 
 sub TIESCALAR {
 	my( $class, $value, $lifetime ) = @_;

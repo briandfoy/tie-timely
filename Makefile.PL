@@ -66,7 +66,6 @@ my %WriteMakefile = (
 
 	'PREREQ_PM'     => {
 		'Carp'    => '0',
-		'version' => '0.86',
 		},
 
 	'META_MERGE' => {
